@@ -1,10 +1,20 @@
-# newsletter-assets
+# newsletter-assets-public
 
-Images referenced by the scaile newsletter (Brevo, HTML custom code).
-Served over raw.githubusercontent.com, so every file here is public.
+Images embedded in sent scaile newsletters (Brevo, HTML custom code).
+Served over raw.githubusercontent.com, so **every file here is public by
+necessity** - an email client cannot authenticate against GitHub.
 
-Do not delete or rename anything once a campaign has gone out. Sent emails
-keep loading these URLs for as long as recipients open them.
+## Why this repo exists separately
+`scailetech/newsletter-assets` is private and holds the full asset archive,
+including client performance charts. That repo must stay private. Only files
+that are actually embedded in a newsletter belong here, and nothing else.
+
+Before adding a file, ask: is it already public, or about to be sent to the
+whole list anyway? If not, it does not go in here.
+
+## Do not delete or rename
+Sent emails keep loading these URLs for as long as recipients open them.
+Removing a file retroactively breaks every issue that referenced it.
 
 ## campaign_28 - Cologne Special, September 2026
 - scaile-mark.png ........... header mark, 44x37, shown at 22px
